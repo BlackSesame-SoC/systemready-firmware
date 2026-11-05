@@ -29,6 +29,7 @@ This guide describes how to flash C1200 firmware and install a Linux distributio
 ## Install the Distribution
 
 1. Write the distribution ISO to an SD card using dd, then insert the SD card into the C1200 CDCU.
-2. Configure the U-Boot environment variables to boot from the SD card.
-3. Install the distribution.
-4. Reboot the target.
+2. Power on
+3. U-Boot scans the ESP partition and launches the corresponding installer. If automatic scanning does not occur, manually configure bootcmd to execute bootflow scan -lb.
+4. Install the distribution.
+5. Reboot the target.
