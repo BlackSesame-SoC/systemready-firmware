@@ -13,6 +13,8 @@ This guide describes how to flash C1200 firmware and install a Linux distributio
 2. Open the flashing tool.
 
    ![BST flashing tool](pic/01.jpeg)
+   
+   ![BST flashing tool](pic/02.jpg)
 
 3. Configure the flashing tool:
 
@@ -22,7 +24,7 @@ This guide describes how to flash C1200 firmware and install a Linux distributio
    - Select the ADAS_DB template.
    - Select Type-C.
    - Select chD.
-   - Check uboot, and replace it with the U-Boot build that supports UEFI.
+   - Check uboot,safety and replace it with the U-Boot build that supports UEFI.
 
 4. Start flashing.
 
