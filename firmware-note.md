@@ -24,7 +24,7 @@ This guide describes how to flash C1200 firmware and install a Linux distributio
    - Select the ADAS_DB template.
    - Select Type-C.
    - Select chD.
-   - Check uboot,safety and replace it with the U-Boot build that supports UEFI.
+   - Check the U-Boot and Safety images. To enable UEFI support, please replace the two corresponding image files under the firmware directory.
 
 4. Start flashing.
 
